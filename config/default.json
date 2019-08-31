@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://Christian:christian@contactkeeper-bdi4d.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://villamin:villamin@contactkeeper-bdi4d.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "sikreto"
 }
