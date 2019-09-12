@@ -7,7 +7,6 @@ import {
   FILTER_CONTACTS,
   CLEAR_FILTER
 } from '../types';
-import { stat } from 'fs';
 
 export default (state, action) => {
   switch (action.type) {
