@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import AuthContext from '../../context/auth/authContext';
 
-const PrivateRoutes = ({ component: Component, ...rest }) => {
+const PrivateRoute = ({ component: Component, ...rest }) => {
   const authContext = useContext(AuthContext);
   const { isAuthenticated, loading } = authContext;
   return (
@@ -19,4 +19,4 @@ const PrivateRoutes = ({ component: Component, ...rest }) => {
   );
 };
 
-export default PrivateRoutes;
+export default PrivateRoute;
